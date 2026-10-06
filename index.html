@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的 Cloudflare 网站</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+      background: linear-gradient(135deg, #f6821f 0%, #fbad41 100%);
+      color: #fff;
+    }
+    .card {
+      text-align: center;
+      padding: 48px 40px;
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+      max-width: 560px;
+    }
+    h1 { font-size: 2.2rem; margin-bottom: 16px; }
+    p { font-size: 1.05rem; line-height: 1.7; opacity: 0.95; }
+    .url { margin-top: 20px; font-size: 0.95rem; opacity: 0.85; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🚀 部署成功！</h1>
+    <p>这个页面托管在 Cloudflare 的全球边缘网络上，任何人都可以通过链接访问。</p>
+    <p class="url">由 Cloudflare Pages 提供服务</p>
+  </div>
+</body>
+</html>
